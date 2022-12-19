@@ -11,7 +11,7 @@ const api = {
 
   function updateImages(data){
     const temp = toCelsius(data.main.temp);
-    let src = 'img/temp-mid.png';
+    let src = 'img/1.jpg';
     if (temp > 26){
         src = 'img/temp-high.png';
     }else if (temp < 20){
